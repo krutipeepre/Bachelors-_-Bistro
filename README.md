@@ -2,7 +2,7 @@
 
 A sleek, Gen-Z friendly AI-powered recipe assistant built specifically for hostel students and bachelors. Tell it what random ingredients you have left in your fridge, and it will instantly cook up quick, practical, and delicious meal ideas using basic pantry staples!
 
-🔗 **Live App:** [Bachelors' Bistro Live]([https://bachelors-bistro.streamlit.app/](https://bachelors-bistro.streamlit.app/))
+🔗 **Live App:** [Bachelors' Bistro Live](https://bachelors-bistro.streamlit.app/)
 
 ## ✨ Features
 
