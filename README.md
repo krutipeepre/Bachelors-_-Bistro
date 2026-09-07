@@ -25,30 +25,33 @@ A sleek, Gen-Z friendly AI-powered recipe assistant built specifically for hoste
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/Bachelors-Bistro.git](https://github.com/your-username/Bachelors-Bistro.git)
+   git clone [https://github.com/krutipeepre/Bachelors-Bistro.git](https://github.com/krutipeepre/Bachelors-Bistro.git)
    cd Bachelors-Bistro
-Install dependencies:
+
+## Install dependencies:
 
 Bash
 pip install -r requirements.txt
-Set up your Groq API Key:
+
+## Set up your Groq API Key:
 Create a .streamlit/secrets.toml file in your project root directory and add your key:
 
 Ini, TOML
 GROQ_API_KEY = "your_actual_groq_api_key_here"
-Run the Streamlit app:
+
+## Run the Streamlit app:
 
 Bash
 streamlit run app.py
-☁️ Deployment on Streamlit Cloud
-Push this repository to your GitHub.
 
-Go to Streamlit Community Cloud and click Create app.
+# ☁️ Deployment on Streamlit Cloud
 
-Select your repository, branch (main), and main file (app.py).
+1. Push this repository to your GitHub.
+2. Go to Streamlit Community Cloud and click Create app.
+3. Select your repository, branch (main), and main file (app.py).
+4. In your app settings on Streamlit Cloud, go to Secrets and add:
 
-In your app settings on Streamlit Cloud, go to Secrets and add:
+    Ini, TOML
+    GROQ_API_KEY = "your_actual_groq_api_key_here"
 
-Ini, TOML
-GROQ_API_KEY = "your_actual_groq_api_key_here"
-Hit Deploy and enjoy!
+5. Hit Deploy and enjoy!
