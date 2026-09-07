@@ -37,7 +37,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Main Dashboard Header without the omelette emoji
+# Main Dashboard Header
 st.title("Bachelors' Bistro - AI Chef Chatbot")
 st.markdown(
     "*Tell me what's left in your fridge, and I'll cook up some recipes for"
